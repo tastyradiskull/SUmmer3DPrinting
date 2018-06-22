@@ -12,7 +12,7 @@ difference(){
 minkowski(){cube([80,43,18.5], center=true);
     cylinder(r=1.5,$fn=50); //basic rounded box shape.
 }
-translate([-33.5,15.5,-9.5])M6screw();
+translate([-33.5,15.5,0.0])M6screw();
 translate([33.5,15.5,-9.5])M6screw();
 translate([-33.5,-15.5,-9.5])M6screw();
 translate([33.5,-15.5,-9.5])M6screw();
